@@ -1,0 +1,195 @@
+/* 
+=======================
+Extra_Small 
+=======================
+*/
+@media (max-width: 575.98px) 
+{
+/* header start */
+header
+{
+background-color: #F0FFF0;
+padding: 5px 0;
+}
+.logo
+{width: 175px;}
+.menu ul li a
+{ 
+margin-top: 5px; padding: 0 5px !important;
+}
+.s_button
+{
+margin-top: 5px;
+margin-left: 5px;
+}
+/* banner_start */
+.banner
+{padding-bottom: 60px;}
+.b_content
+{text-align: center;}
+.b_h1 
+{padding: 0; font-size: 30px; line-height: 45px;}
+.b_p2
+{padding: 0; line-height: 30px;}
+.b_image
+{padding: 0; margin-bottom: 30px;}
+.b_image img
+{width: 100%;}
+/* feature_start */
+.c_p
+{padding-bottom: 60px;}
+/* courses_start */
+.c_h1
+{font-size: 30px; font-weight: 500;}
+.c_single
+{margin: 40px 0 0; padding: 20px 15px 25px;}
+.c_left ul li img, .c_right ul li img
+{width: 20px;}
+.c_right ul li span, .c_left ul li span
+{font-size: 15px; font-weight: 400;}
+/* testimonia_start */
+.t_item
+{margin-top: 30px;}
+.t_img
+{padding: 0 50px 20px;}
+.t_text
+{text-align: center;}
+/* footer_top_start */
+.footer_top
+{text-align: center; padding: 55px 0 20px;}
+.ft_details
+{margin-bottom: 35px; padding-right: 0;}
+.ft_links
+{margin-bottom: 35px;}
+}
+
+/*
+=======================
+Small 
+=======================
+ */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+/* header start */
+header
+{background-color: #F0FFF0; padding: 5px 0;}
+.logo
+{width: 175px;}
+.menu ul li a
+{margin-top: 5px; padding: 0 5px !important;}
+.s_button
+{margin-left: 5px; margin-top: 5px; padding: 12px 28px !important;}
+/* banner_start */
+.banner
+{padding-bottom: 60px;}
+.b_content
+{text-align: center;}
+.b_h1 
+{padding: 0 70px 0; font-size: 35px; line-height: 50px;}
+.b_p2
+{padding: 0 50px; line-height: 30px;}
+.b_image
+{padding: 0 50px; margin-bottom: 30px;}
+.b_image img
+{width: 100%;}
+/* feature_start */
+.c_p
+{padding-bottom: 60px;}
+/* Courses_start */
+.c_h1
+{font-size: 30px; font-weight: 500;}
+.c_single
+{margin: 40px 60px 0;}
+/* testimonia_start */
+.t_item
+{margin-top: 30px;}
+.t_img
+{padding: 0 120px 20px;}
+.t_text
+{text-align: center;}
+/* footer_top_start */
+.footer_top
+{text-align: center;}
+.ft_details
+{margin-bottom: 35px; padding-right: 70px; padding-left: 70px;}
+}
+
+/*
+=======================
+Mideam 
+=======================
+ */
+@media (min-width: 768px) and (max-width: 991.98px) 
+/* header start */
+{
+header
+{padding: 5px 0;}
+.menu ul li a
+{margin-top: 5px; padding: 0 5px !important;}
+.s_button
+{margin-top: 5px; margin-left: 5px;}
+/* banner_start */
+.b_content
+{text-align: center;}
+.b_h1 
+{padding: 0 140px 0; font-size: 40px; line-height: 50px;}
+.b_p2
+{padding: 0 110px; line-height: 30px;}
+.b_image
+{padding: 0 140px; margin-bottom: 30px;}
+/* feature_start */
+.c_p
+{padding-bottom: 80px;}
+/* Courses_start */
+.c_single
+{margin: 40px 140px 0;}
+/* testimonia_start */
+.t_item
+{margin-top: 40px;}
+/* footer_top_start */
+.footer_top
+{text-align: center;}
+.ft_details
+{margin-bottom: 35px; padding-right: 80px; padding-left: 80px;}
+}
+
+/* 
+=======================
+Larg 
+=======================
+*/
+@media (min-width: 992px) and (max-width: 1999.98px) 
+{
+/* Courses_start */
+.c_single
+{padding: 20px 15px 25px;}
+.c_left ul li img, .c_right ul li img
+{width: 20px;}
+.c_right ul li span, .c_left ul li span
+{font-size: 15px; font-weight: 400;}
+}
+
+/* 
+=======================
+Extra_Larg 
+=======================
+*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*
+=======================
+Extra_Extra_Larg 
+=======================
+*/
+@media (min-width: 1400px) 
+{
+/* Banner-start */
+.b_h1
+{padding: 0 100px 0 0;}
+/* feature_start */
+.f_single
+{padding: 60px 0 55px;}
+/* foote_top_start */
+.ft_details
+{padding-right: 130px;}
+}
